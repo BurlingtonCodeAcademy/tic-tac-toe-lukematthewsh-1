@@ -14,7 +14,7 @@ h2 {
 }
 
 span{
-  font-size: 75px;
+  font-size: 20px;
   margin-top: 20px;
 }
 
@@ -54,3 +54,32 @@ div.board {
   overflow: hidden;
   margin: 0 auto;
 }
+
+
+
+.board{
+  
+  font-size: 50px;
+}
+div[id^="cell"]{
+  color:green;
+  vertical-align: middle;
+}
+
+
+#timer{
+  
+  text-align: center;
+  background: blue;
+  border:solid 2px white;
+  color: white;
+  margin-left: 35%;
+  max-width: 30%;
+  width: auto;
+  font-size: 15px;
+  border-radius: 25%;
+}
+
+
+
+

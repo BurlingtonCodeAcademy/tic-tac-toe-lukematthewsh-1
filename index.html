@@ -10,28 +10,37 @@
 </head>
 
 <body>
+  
   <h2>Tic Tac Toe</h2>
   <div class="board">
     <div id="row-1">
-      <div id="cell-0"></div>
-      <div id="cell-1"></div>
-      <div id="cell-2"></div>
+      <div id="cell1"></div>
+      <div id="cell2"></div>
+      <div id="cell3"></div>
     </div>
     <div id="row-2">
-      <div id="cell-3"></div>
-      <div id="cell-4"></div>
-      <div id="cell-5"></div>
+      <div id="cell4"></div>
+      <div id="cell5"></div>
+      <div id="cell6"></div>
     </div>
     <div id="row-3">
-      <div id="cell-6"></div>
-      <div id="cell-7"></div>
-      <div id="cell-8"></div>
+      <div id="cell7"></div>
+      <div id="cell8"></div>
+      <div id="cell9"></div>
     </div>
   </div>
 
-  <div class="status">
-    <button id="start" type="button">Start Game</button>
+  <div id="status">
+    <button id="1player" type="button">Player vs. Computer</button>
+    <button id="2player" type="button">Player vs. Player</button>
+    
   </div>
+  <div id = "timer">
+    <span id = 'hours'>0</span> hour(s)
+    <span id = 'minutes'>0</span> minute(s)
+    <span id = 'seconds'>0</span> seconds
+  </div>
+  <button id="reset" type = "button">Reset</button>
   <script src="main.js"></script>
 </body>
 
