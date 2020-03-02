@@ -65,6 +65,9 @@ div[id^="cell"]{
   color:green;
   vertical-align: middle;
 }
+div[id^="cell"]:hover{
+  background-color: red
+}
 
 
 #timer{

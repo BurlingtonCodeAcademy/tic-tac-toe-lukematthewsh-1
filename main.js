@@ -37,6 +37,8 @@ let board = [
     cell7, cell8, cell9
 ]
 
+
+// currently not in use \\
 let prefferedMove = {
     move1: cell1,
     move2: cell2,
@@ -56,8 +58,8 @@ function startTimer() {
     timer = setInterval(function () {
         seconds++;
         document.getElementById("seconds").innerText = seconds % 60;
-        document.getElementById("minutes").innerText = parseInt(seconds / 60);
-        document.getElementById("hours").innerText = parseInt(seconds / 3600);
+        minutes = document.getElementById("minutes").innerText = parseInt(seconds / 60);
+        document.getElementById("hours").innerText = parseInt(minutes / 60);
     }, 1000);
 }
 
